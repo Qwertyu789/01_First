@@ -8,5 +8,6 @@ namespace Lab02_NameForm
 {
     class MyFirstClass
     {
+
     }
 }
