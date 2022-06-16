@@ -1,7 +1,10 @@
 ﻿
+using System;
+using System.Windows.Forms;
+
 namespace Lab02_NameForm
 {
-    partial class NameForm
+    partial class Frm_M02_HelloForm
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -29,7 +32,7 @@ namespace Lab02_NameForm
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NameForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_M02_HelloForm));
             this.LabName = new System.Windows.Forms.Label();
             this.ButName = new System.Windows.Forms.Button();
             this.TboxName = new System.Windows.Forms.TextBox();
@@ -42,7 +45,7 @@ namespace Lab02_NameForm
             this.LabName.Cursor = System.Windows.Forms.Cursors.Default;
             this.LabName.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.LabName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LabName.Location = new System.Drawing.Point(454, 294);
+            this.LabName.Location = new System.Drawing.Point(297, 547);
             this.LabName.Name = "LabName";
             this.LabName.Size = new System.Drawing.Size(57, 20);
             this.LabName.TabIndex = 0;
@@ -52,7 +55,7 @@ namespace Lab02_NameForm
             // 
             this.ButName.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.ButName.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.ButName.Location = new System.Drawing.Point(562, 332);
+            this.ButName.Location = new System.Drawing.Point(650, 536);
             this.ButName.Name = "ButName";
             this.ButName.Size = new System.Drawing.Size(113, 41);
             this.ButName.TabIndex = 1;
@@ -63,22 +66,22 @@ namespace Lab02_NameForm
             // TboxName
             // 
             this.TboxName.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.TboxName.Location = new System.Drawing.Point(517, 290);
+            this.TboxName.Location = new System.Drawing.Point(376, 544);
             this.TboxName.Name = "TboxName";
             this.TboxName.Size = new System.Drawing.Size(210, 29);
             this.TboxName.TabIndex = 2;
             // 
-            // NameForm
+            // Frm_M02_HelloForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(793, 598);
             this.Controls.Add(this.TboxName);
             this.Controls.Add(this.ButName);
             this.Controls.Add(this.LabName);
-            this.Name = "NameForm";
+            this.Name = "Frm_M02_HelloForm";
             this.Text = "Name_Form";
             this.Load += new System.EventHandler(this.NameForm_Load);
             this.ResumeLayout(false);

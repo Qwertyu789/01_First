@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using System.Windows.Forms;
 
 namespace Lab02_NameForm
 {
-    public partial class NameForm : Form
+    public partial class Frm_M02_HelloForm : Form
     {
-        public NameForm()
+        public Frm_M02_HelloForm()
         {
             InitializeComponent();
         }
@@ -20,7 +21,7 @@ namespace Lab02_NameForm
         private void ButName_Click(object sender, EventArgs e)
         {
             string Name = TboxName.Text;
-            MessageBox.Show("Hello!" + Name);
+            MessageBox.Show("Hello！" + Name+" 同學\r準備好放棄了嗎？");
         }
 
         private void NameForm_Load(object sender, EventArgs e)
