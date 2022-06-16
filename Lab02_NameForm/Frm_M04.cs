@@ -35,5 +35,38 @@ namespace Lab02_NameForm
         {
             myfirstmethod();
         }
+
+        private void classmethod_Click(object sender, EventArgs e)
+        {
+            MyFirstClass mc = new MyFirstClass();
+            mc.method02();
+            mc.method03();
+        }
+        String Birthday(int Age)
+        {
+            int birthday = DateTime.Now.Year - Age;
+            string result = ("你的出生年為 " + birthday + " 年");
+            return result;
+        }
+
+        private void BirdayBut_Click(object sender, EventArgs e)
+        {
+            int year = 0;
+            try { year = Convert.ToInt32(BirthYearTB.Text); } catch { }
+            MessageBox.Show(Birthday(year));
+            
+        }
+
+        private void ESTestBut_Click(object sender, EventArgs e)
+        {
+            MyFirstClass mc = new MyFirstClass();
+            mc.method04();
+        }
+
+        private void PartialBut_Click(object sender, EventArgs e)
+        {
+            MyFirstClass mc = new MyFirstClass();
+            mc.method06();
+        }
     }
 }
