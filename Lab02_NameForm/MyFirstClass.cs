@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Lab02_NameForm
 {
-    partial class MyFirstClass
+    public partial class MyFirstClass
     {
      private void method01() { MessageBox.Show("private method"); }
      public void method02() { MessageBox.Show("public method"); }

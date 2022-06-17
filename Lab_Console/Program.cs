@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lab02_NameForm;
 
 namespace CosoleApp01
 {
@@ -15,6 +16,10 @@ namespace CosoleApp01
             string Name = Console.ReadLine();
             Console.WriteLine("歡迎回來！" + Name);
             Console.ReadKey();
+
+            MyFirstClass mc = new MyFirstClass();
+            mc.method04();
+
         }
     }
 }

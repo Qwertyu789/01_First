@@ -12,4 +12,10 @@ namespace Lab02_NameForm
         public void method06() { MessageBox.Show("partial class method"); }
 
     }
+    public class Member
+    {
+        public string Name;
+        public int Age;
+        
+    }
 }
