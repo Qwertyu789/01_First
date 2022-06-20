@@ -54,5 +54,44 @@ namespace Lab02_NameForm
         {
             Register01But.Click -= new EventHandler(Register01ButClick);
         }
+
+        private void RENAME_Click(object sender, EventArgs e)
+        {
+            Text = "HAHA";
+        }
+
+        private void moveBtn_Click(object sender, EventArgs e)
+        {
+            this.RENAME.SetBounds(200, 200, 100, 100);
+        }
+
+        private void MessageBoxAns_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("今天星期二嗎？", "回答我"
+                , MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("賓果答錯了，拉進垃圾車HEHE");
+            }
+            else if (result==DialogResult.No)
+            {
+                MessageBox.Show("賓果答對囉HEHE，福委加碼");
+            }
+            else
+            {
+                MessageBox.Show("這麼簡單YES NO問題都拒答，你媽不如生個西瓜");
+            }
+        }
+
+        private void dialogresultBut_Click(object sender, EventArgs e)
+        {
+            Frm_M02_HelloForm FrmHello = new Frm_M02_HelloForm();
+            DialogResult result = FrmHello.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show("讚ㄛ！");
+            }
+        }
     }
 }

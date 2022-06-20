@@ -83,7 +83,6 @@ namespace Lab02_NameForm
             this.Controls.Add(this.LabName);
             this.Name = "Frm_M02_HelloForm";
             this.Text = "Name_Form";
-            this.Load += new System.EventHandler(this.NameForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

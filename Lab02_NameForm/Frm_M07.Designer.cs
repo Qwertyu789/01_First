@@ -34,11 +34,15 @@ namespace Lab02_NameForm
             this.Register01But = new System.Windows.Forms.Button();
             this.Register02But = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.RENAME = new System.Windows.Forms.Button();
+            this.moveBtn = new System.Windows.Forms.Button();
+            this.MessageBoxAns = new System.Windows.Forms.Button();
+            this.dialogresultBut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(289, 46);
+            this.button1.Location = new System.Drawing.Point(432, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 58);
             this.button1.TabIndex = 0;
@@ -84,11 +88,55 @@ namespace Lab02_NameForm
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // RENAME
+            // 
+            this.RENAME.Location = new System.Drawing.Point(432, 80);
+            this.RENAME.Name = "RENAME";
+            this.RENAME.Size = new System.Drawing.Size(130, 58);
+            this.RENAME.TabIndex = 5;
+            this.RENAME.Text = "命名";
+            this.RENAME.UseVisualStyleBackColor = true;
+            this.RENAME.Click += new System.EventHandler(this.RENAME_Click);
+            // 
+            // moveBtn
+            // 
+            this.moveBtn.Location = new System.Drawing.Point(432, 144);
+            this.moveBtn.Name = "moveBtn";
+            this.moveBtn.Size = new System.Drawing.Size(130, 58);
+            this.moveBtn.TabIndex = 6;
+            this.moveBtn.Text = "MoveBtn";
+            this.moveBtn.UseVisualStyleBackColor = true;
+            this.moveBtn.Click += new System.EventHandler(this.moveBtn_Click);
+            // 
+            // MessageBoxAns
+            // 
+            this.MessageBoxAns.Location = new System.Drawing.Point(432, 209);
+            this.MessageBoxAns.Name = "MessageBoxAns";
+            this.MessageBoxAns.Size = new System.Drawing.Size(130, 58);
+            this.MessageBoxAns.TabIndex = 7;
+            this.MessageBoxAns.Text = "DateAnswer";
+            this.MessageBoxAns.UseVisualStyleBackColor = true;
+            this.MessageBoxAns.Click += new System.EventHandler(this.MessageBoxAns_Click);
+            // 
+            // dialogresultBut
+            // 
+            this.dialogresultBut.Location = new System.Drawing.Point(432, 273);
+            this.dialogresultBut.Name = "dialogresultBut";
+            this.dialogresultBut.Size = new System.Drawing.Size(130, 58);
+            this.dialogresultBut.TabIndex = 8;
+            this.dialogresultBut.Text = "DialogResultGOGO";
+            this.dialogresultBut.UseVisualStyleBackColor = true;
+            this.dialogresultBut.Click += new System.EventHandler(this.dialogresultBut_Click);
+            // 
             // Frm_M07
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 440);
+            this.ClientSize = new System.Drawing.Size(574, 341);
+            this.Controls.Add(this.dialogresultBut);
+            this.Controls.Add(this.MessageBoxAns);
+            this.Controls.Add(this.moveBtn);
+            this.Controls.Add(this.RENAME);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.Register02But);
             this.Controls.Add(this.Register01But);
@@ -107,5 +155,9 @@ namespace Lab02_NameForm
         private System.Windows.Forms.Button Register01But;
         private System.Windows.Forms.Button Register02But;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button RENAME;
+        private System.Windows.Forms.Button moveBtn;
+        private System.Windows.Forms.Button MessageBoxAns;
+        private System.Windows.Forms.Button dialogresultBut;
     }
 }

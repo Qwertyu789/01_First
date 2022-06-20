@@ -18,4 +18,10 @@ namespace Lab02_NameForm
         public int Age;
         
     }
+    public class UseStatic
+    {
+        public int InstanceCount;
+        public static int StaticCount;
+
+    } 
 }

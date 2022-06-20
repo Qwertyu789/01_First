@@ -22,11 +22,10 @@ namespace Lab02_NameForm
         {
             string Name = TboxName.Text;
             MessageBox.Show("Hello！" + Name+" 同學\r準備好放棄了嗎？");
-        }
-
-        private void NameForm_Load(object sender, EventArgs e)
-        {
+            MessageBox.Show(UseStatic.StaticCount.ToString());
 
         }
+
+
     }
 }
