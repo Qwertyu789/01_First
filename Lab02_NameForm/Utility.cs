@@ -24,4 +24,11 @@ namespace Lab02_NameForm
         public static int StaticCount;
 
     } 
+
+    public enum UserRole
+    {
+        Admin,
+        User = 2
+    }
+
 }

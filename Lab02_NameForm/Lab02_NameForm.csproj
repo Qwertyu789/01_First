@@ -76,6 +76,18 @@
     <Compile Include="Frm_M15_CTV.Designer.cs">
       <DependentUpon>Frm_M15_CTV.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M16.Designer.cs">
+      <DependentUpon>Frm_M16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M18_Enum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M18_Enum.Designer.cs">
+      <DependentUpon>Frm_M18_Enum.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyFirstClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,6 +106,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M15_CTV.resx">
       <DependentUpon>Frm_M15_CTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M16.resx">
+      <DependentUpon>Frm_M16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M18_Enum.resx">
+      <DependentUpon>Frm_M18_Enum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

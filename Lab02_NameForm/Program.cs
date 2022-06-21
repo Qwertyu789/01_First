@@ -16,7 +16,7 @@ namespace Lab02_NameForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_M15_CTV());
+            Application.Run(new Frm_M07());
         }
     }
 }
