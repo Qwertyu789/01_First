@@ -20,14 +20,17 @@ namespace Lab02_NameForm
         private void button1_Click(object sender, EventArgs e)
         {
             UserRole Role = UserRole.Admin;
-            if (Role == UserRole.Admin)
-            {
-                ProductBtn.Enabled = true;
-            }
-            else
-            {
-                ProductBtn.Enabled = false;
-            }
+            //if (Role == UserRole.Admin)
+            //{
+            //    ProductBtn.Enabled = true;
+            //}
+            //else
+            //{
+            //    ProductBtn.Enabled = false;
+            //    }
+
+            ProductBtn.Enabled = Role == UserRole.Admin;
+            
 
         }
 

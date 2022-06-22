@@ -31,4 +31,18 @@ namespace Lab02_NameForm
         User = 2
     }
 
+    struct product
+    {
+        //public string Productname;
+        //public decimal Productprice;
+
+        public string Productname { get; set; }
+        public decimal Productprice { get; set; }
+
+        public product(string Name,decimal Price)
+        {
+            Productname = Name;
+            Productprice = Price;
+        }
+    }
 }
