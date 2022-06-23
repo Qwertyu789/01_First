@@ -106,6 +106,18 @@
     <Compile Include="Frm_M26_array.Designer.cs">
       <DependentUpon>Frm_M26_array.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M28_進階方法.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M28_進階方法.Designer.cs">
+      <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M29_集合.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M29_集合.Designer.cs">
+      <DependentUpon>Frm_M29_集合.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyFirstClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -139,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M26_array.resx">
       <DependentUpon>Frm_M26_array.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M28_進階方法.resx">
+      <DependentUpon>Frm_M28_進階方法.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M29_集合.resx">
+      <DependentUpon>Frm_M29_集合.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -45,4 +45,10 @@ namespace Lab02_NameForm
             Productprice = Price;
         }
     }
+
+    struct employee
+    {
+        public string Name;
+        public int Age;
+    }
 }
