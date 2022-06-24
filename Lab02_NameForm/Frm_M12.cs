@@ -43,8 +43,7 @@ namespace Lab02_NameForm
             if (true)
             {
                 int x = 99;
-                c += 2;
-                a = c++;
+                x += a ;
             }
              c  += 1;
             CounterLB.Text = "Count：" + c;

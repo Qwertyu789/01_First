@@ -119,5 +119,30 @@ namespace Lab02_NameForm
             }
             MessageBox.Show(y);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            foreach(Control item in this.Controls)
+            {
+
+                //if(item.GetType() != typeof(Button))
+                //{
+                //    continue;
+                //}
+
+                //is可以判斷型態
+                if(!(item is Button))
+                {
+                    continue;
+                }
+
+
+                item.Left -= 10;
+                item.Top -= 10;
+            }
+        }
+
+        
     }
 }
